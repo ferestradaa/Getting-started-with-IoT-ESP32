@@ -231,13 +231,13 @@ void setup() {
     if (pinStateCurrent2 == HIGH) { //si el estado actual del pin es HIGH          
      //advise = Serial.print("FIRE DETECTED!\n"); 
       advise = true; //variable booleana para validad la activacion del sensor
-      Serial.print("Fire!"); //se imprime fuego detectado
+      Serial.print("\nFire!\n"); //se imprime fuego detectado
       delay(1000); 
    }
     else if (pinStateCurrent2 == LOW){ //caso contrario
       //advise = Serial.println("FIRE NOT DETECTED");
       advise = false;
-      Serial.print("\nNo Fire detected"); 
+      Serial.print("\nNo Fire detected\n"); 
       delay(1000);
     }
   }
