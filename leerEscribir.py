@@ -11,15 +11,20 @@ config = {
     "databaseURL": "https://proyecto1-4fb45-default-rtdb.firebaseio.com/",
 }
 
+#Acceder a la base de datos
 firebase = pyrebase.initialize_app(config)
 db = firebase.database()
 
+#Crear una copia de los datos almacenados
 all_sensors=db.child("test").get()
+#Recorrer los datos y buscar "numero" para compararlo y cambiar usuario
 for sensor in all_sensors.each():
     if(sensor.key() == "numero"):
         if(int(sensor.val())>9):
             db.child("test").update({"usuario":"Elemento mayor a 9"})
 
+#Crear otra copia de los datos, pero con el usuario actualizado
 all_updated = db.child("test").get()
+#Imprimir los datos actualizados
 for sensor in all_updated.each():
     print(sensor.key() + ":", sensor.val())
