@@ -1,5 +1,7 @@
 //Reto: Implementacion de Internet de las Cosas
 //Fernando Estrada Silva - A01736094
+//Adrián Moras Acuña - A01552359
+//Ángel Estrada Centeno - A01732584
 
 #include <esp_wpa2.h>
 #include <WiFi.h>
