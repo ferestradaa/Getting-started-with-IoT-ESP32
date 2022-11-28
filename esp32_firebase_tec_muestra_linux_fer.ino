@@ -1,4 +1,6 @@
-//Reto 
+//Reto: Implementacion de Internet de las Cosas
+//Fernando Estrada Silva - A01736094
+
 #include <esp_wpa2.h>
 #include <WiFi.h>
 #include <Firebase_ESP_Client.h>  
