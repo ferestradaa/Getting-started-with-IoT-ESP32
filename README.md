@@ -1,5 +1,5 @@
-# Reto TC1004B
-Implementación de internet de las cosas
+# Reto TC1004B: Implementación de internet de las cosas
+
 
 - Fernando Estrada Silva // A01736094
 - Adrián Moras Acuña // A01552359
