@@ -8,7 +8,7 @@
 En este repositorio se encuentran todos los códigos y configuraciones necesarias para resolver el reto del bloque TC1004B. 
 En las secciones siguientes de la [Wiki](https://github.com/ferestradaa/RetoIOT/wiki) es posible encontrar archivos de arduino e .ia en relación a la creación de la base de datos y la aplicación móvil. 
 
-Además, se ha añadido una sección aparte para realizar todas las acciones previas para trabajar con el ESP32 y el IDE de Arduino, tales como instalacion de librerías, extensiones, creacion de archivos y materiales a utilziar. 
+Se utiliza el microcontrolador ESP32 para realizar una conexion WIFI a una base de datos en firebase para leer y recibir lecturas de sensores en tiempo real. 
 
 
 
